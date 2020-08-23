@@ -26,16 +26,6 @@ choose to start a game or exit the game.
   Then the game begins with score set to zero and a prompt on the screen to
   "begin".
 
-### Scenario: -describe-a-scenario-of-this-module
-
-  Given the player has a device that can play the pong game and the player
-  clicks "start game:
-
-  When the player hits any preassigned key to "begin"
-
-  Then the ball starts moving in a random direction starting from the center
-  of the game screen
-
 ### Scenario: Player clicks on "exit"
 
   Given the player has a device that can play the pong game
