@@ -33,7 +33,7 @@ choose to start a game or exit the game.
 
   When the player hits any preassigned key to "begin"
 
-  Then the ball starts moving in a random direction starting from the centre
+  Then the ball starts moving in a random direction starting from the center
   of the game screen
 
 ### Scenario: Player clicks on "exit"
