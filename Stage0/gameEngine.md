@@ -1,4 +1,4 @@
-# collisions
+# gameEngine
 
 ## Feature
 
@@ -7,11 +7,21 @@ The assumption here is that player1 plays on the left and player2 on the right.
 
 ## Acceptance Criteria
 
-### Scenario: Ball collides with paddle
+### Scenario: Beginning new game
+
+  Given the player has a device that can play the pong game and the player
+  clicks "start game:
+
+  When the player hits any preassigned key to "begin"
+
+  Then the ball starts moving in a random direction starting from the center
+  of the game screen.
+
+### Scenario: Ball collides with a paddle
 
   Given the game session is running.
 
-  When the ball hits the paddle.
+  When the ball hits a paddle.
 
   Then ball reflects from the point of contact on the paddle and
   its speed increases by 10 percent.
