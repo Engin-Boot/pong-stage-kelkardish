@@ -3,7 +3,7 @@
 ## Feature
 
 This module focuses on how the paddle moves. The movement keys for now
-preconfigured are "up arrow" and "down arrow" for player 1, and
+configured are "up arrow" and "down arrow" for player 1, and
 "w" and "s" for player 2.
 
 Note that +Y translates to moving down on the screen and -Y is moving up.
