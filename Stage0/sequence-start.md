@@ -2,12 +2,28 @@
 
 ## Startup Sequence
 
--describe-how-your-modules-interact-to-start
+```mermaid
+sequenceDiagram
+Player->>+mainMenu:launches game
+mainMenu-->>-Player:start game or exit
+Player->>mainMenu:start game
+mainMenu->>+gameEngine:"start game"
+gameEngine-->>-Player:"begin"
+```
 
 ## Movement Initiation
 
--describe-how-modules-interact-to-make-the-ball-move
-
+```mermaid
+sequenceDiagram
+Player->>gameEngine:"begin"
+gameEngine-->>Player:ball starts from center at random direction
+Player->>movement:moves paddle to hit ball
+movement-->>gameEngine:ball hits paddle
+gameEngine-->>Player:increase ball speed
+```
 ## One score
-
--describe-how-the-modules-interact-to-record-scores
+```mermaid
+sequenceDiagram
+gameEngine-->>keepScore:ball hits left or right border
+keepScore-->>keepScore:increase score by 1
+```
