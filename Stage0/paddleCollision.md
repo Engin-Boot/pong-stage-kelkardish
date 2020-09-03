@@ -1,4 +1,4 @@
-# paddlCollision
+# paddleCollision
 
 ## Feature
 
