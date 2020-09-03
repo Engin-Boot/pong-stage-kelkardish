@@ -14,7 +14,7 @@ Features like starting the game, pausing, restarting and exiting a game session
 
   When the player hits any preassigned key to "begin".
 
-  Then the ball starts from the centre of the screen and starts moving in
+  Then the ball starts from the center of the screen and starts moving in
   random direction.
 
 ### Scenario: Ball movement in active game session
@@ -23,10 +23,10 @@ Features like starting the game, pausing, restarting and exiting a game session
 
   When updateClock sends wake signal
 
-  Then ball posiiton updates on the screen depending on its previous position and
+  Then ball position updates on the screen depending on its previous position and
   the current velocity of the ball.
 
-### Scenario: New Rouns starts
+### Scenario: New Round starts
 
   Given the player is in active game session.
 
