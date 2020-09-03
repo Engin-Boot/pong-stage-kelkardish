@@ -1,8 +1,8 @@
-# boundryCollision
+# boundaryCollision
 
 ## Feature
 
-This module checks for the collision of the ball and any of the four boundry
+This module checks for the collision of the ball and any of the four boundary
 walls.
 
 ## Acceptance Criteria
