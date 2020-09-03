@@ -10,6 +10,6 @@ This module sends an update signal to all the other modules.
 
   Given a player has launched the game and plays.
 
-  When every (1/60)th of a second passes.
+  When every 16 milisecond passes.
 
   Then tell all other modules to wake up.
