@@ -10,3 +10,4 @@ paddleMovement
 boundaryCollision
 paddleCollision
 updateClock
+(1/60)th
