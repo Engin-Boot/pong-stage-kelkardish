@@ -23,4 +23,4 @@ Features like starting the game, pausing, restarting and exiting a game session
 
   When either player scores a point
 
-  Then ballMovement module is triggerd.
+  Then trigger the ballMovement module.
