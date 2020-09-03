@@ -32,5 +32,5 @@ Features like starting the game, pausing, restarting and exiting a game session
 
   When new round triggers this module
 
-  Then the ball starts from the centre of the screen and starts moving in
+  Then the ball starts from the center of the screen and starts moving in
   random direction.
