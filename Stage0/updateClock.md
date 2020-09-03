@@ -6,7 +6,7 @@ This module sends an update signal to all the other modules.
 
 ## Acceptance Criteria
 
-### Scenario: Updation of collision detection and ball movement
+### Scenario: Update collision detection and ball movement
 
   Given a player has launched the game and plays.
 
