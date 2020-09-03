@@ -7,6 +7,6 @@ keepScore
 gameSession
 ballMovement
 paddleMovement
-boundaryCollission
+boundaryCollision
 paddleCollision
 updateClock
